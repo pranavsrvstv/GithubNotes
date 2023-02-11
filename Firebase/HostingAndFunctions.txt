@@ -1,0 +1,13 @@
+For deploying a firebase project:
+In PowerShell:
+
+1.firebase login
+2.firebase init
+3.Installl dependencies with npm - YEs
+4.What you want as public directory - build
+5.? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? Set up automatic builds and deploys with GitHub? No
+7.npm run build -- Each time you make changes to your code you need to run npm run build
+8. firebase deploy : to deploy everything
+9.firebase deploy --only functions : to deploy only cloud functions
+10. firebase deploy --only hosting : to deploy only hosting
