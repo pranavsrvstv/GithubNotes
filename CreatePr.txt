@@ -1,0 +1,27 @@
+//Article Link: https://opensource.com/article/19/7/create-pull-request-github
+
+Steps:
+
+Find a project you want to contribute to
+Fork it
+Clone it to your local system
+Make a new branch
+Make your changes
+Push it back to your repo
+Click the Compare & pull request button
+Click Create pull request to open a new pull request
+
+My takepoints:
+
+1. Fork repo in which you want to make change
+2.Go to vs code open a folder, git clone <URL of cloned repo> 
+3.Open the cloned repo folder in vs code
+4.git checkout -b new_branch -- to create a  new branch , we dont make changes to main/master branch
+5.git remote add upstream <URL of original owners repo where you want to push changes at end>
+6.Make changes to the code
+7. git add .
+8. git commit -m "commit message"
+9. git push -u origin new_branch
+10.Go to your new branch in forked repo
+11. Se whether changes are reflected by github
+12.Compare and pull request.
